@@ -5,7 +5,7 @@ cheet('p i k a c h u', function () {
 
 function playPikachu() {
   var pikachu = document.getElementById('audio');
-  audio.play();
+  pikachu.play();
 }
 
 function openMouth() {
@@ -15,3 +15,4 @@ function openMouth() {
     mouth.classList.remove('active');
   }, 1500);
 }
+playPikachu();
